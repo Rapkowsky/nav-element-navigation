@@ -22,3 +22,31 @@ ul {
 	list-style: none;
 	font-size: 24px;
 }
+
+.menu-item {
+	display: inline-block;
+	height: 100px;
+	width: 300px;
+	line-height: 100px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.menu-item:hover {
+	background-color: #363636;
+}
+
+.dropdown {
+	position: absolute;
+	width: 300px;
+}
+.dropdown li {
+	display: none;
+	background-color: #505150;
+	opacity: 0;
+	transition: 0.3s;
+}
+.dropdown li:hover {
+	color: royalblue;
+}
+
