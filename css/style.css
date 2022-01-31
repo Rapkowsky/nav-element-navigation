@@ -53,7 +53,7 @@ ul {
 /* =================== category-1 =================== */
 .menu-item:hover .dropdown li {
 	display: block;
-	animation: category-1 0.5s forwards;
+	animation: category-1 0.3s forwards;
 }
 
 .menu-item:hover .dropdown li:nth-child(2) {
@@ -80,5 +80,22 @@ ul {
 	to {
 		opacity: 1;
 		transform: rotate(0);
+	}
+}
+/* =================== category-2 =================== */
+
+.two:hover .dropdown li {
+	display: block;
+	animation: category-2 0.3s forwards;
+}
+
+@keyframes category-2 {
+	from {
+		opacity: 0;
+		transform: translateY(60px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0px);
 	}
 }
