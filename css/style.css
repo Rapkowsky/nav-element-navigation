@@ -114,3 +114,20 @@ ul {
 		transform: rotateY(0) translateX(0);
 	}
 }
+
+/* =================== category-4 =================== */
+
+.four:hover .dropdown li {
+	animation: category-4 0.3s forwards;
+}
+
+@keyframes category-4 {
+	from {
+		opacity: 0;
+		transform: scale(0.8) translateY(-40px);
+	}
+	to {
+		opacity: 1;
+		transform: scale(1) translateY(0);
+	}
+}
